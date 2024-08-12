@@ -16,6 +16,7 @@ nav {
     width: 100%;
     top: 0;
     z-index: 1000;
+    box-sizing: border-box; /* Ensures padding does not affect width */
 }
 
 nav ul {
@@ -44,6 +45,7 @@ nav ul li a:hover {
 .social-icons {
     display: flex;
     align-items: center;
+    margin: 0; /* Remove any default margin */
 }
 
 .social-icons a {
